@@ -1,0 +1,43 @@
+.main{
+    background-color: black;
+    height: 80vh;
+    width: 100vw;
+    margin: 0  auto;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.heading{
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+ .btn{
+    padding: 10px 15px;
+     margin: 10px 15px;
+     cursor:pointer;
+     background-color:dodgerblue;
+     border: none;
+     color: #fff;
+     border: 5px;
+
+     font-size: 20px;
+ }
+
+ h2>span{
+      border-bottom: 3px solid dodgerblue;
+      padding: 1rem;
+      background-color: #fff;
+ }
+
+ h2{
+    
+ }
+
+ .codecss{
+     padding: 1rem;
+ }
