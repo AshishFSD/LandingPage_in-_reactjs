@@ -1,6 +1,8 @@
 import React from "react";
 import NavBar from "./Component/Navbar";
 import './App.css';
+import Herosection from "./Component/Herosection";
+
 function App() {
 
   
@@ -8,6 +10,8 @@ function App() {
     <div className="App">
       
       <NavBar/>
+      <Herosection/>
+
        
     </div>
   );

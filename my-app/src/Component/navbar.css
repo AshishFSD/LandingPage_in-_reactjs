@@ -1,7 +1,7 @@
 .navbar{
     background-color: #5E3CEE;
     height: 7.5vh;
-    border-bottom: 3px solid #5E3CEE;
+    border-bottom: 3px solid #9e8eed;
     color: #fff;
     display: flex;
     justify-content: space-around;
@@ -47,7 +47,6 @@
         flex-direction: column;
         display:block;
         background-color: #5E3CEE;
-        color: black;
         position: fixed;
         left: 0;
         top:7%;
@@ -57,6 +56,7 @@
         flex-direction: column;
         color: #fff;
         padding: 30px;
+        
         
     }
     .menu{
