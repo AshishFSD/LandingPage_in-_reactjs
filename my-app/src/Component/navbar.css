@@ -19,6 +19,14 @@
     list-style: none;
     text-transform: uppercase;
 }
+.navLink a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.navLink a:hover{
+    color: #9e8eed;
+}
 .loginbtn{
     border: 2px solid #fff;
     font-weight: bold;

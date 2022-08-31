@@ -1,5 +1,6 @@
 import React ,{useState}from "react";
 import './navbar.css'
+import { Link } from "react-router-dom";
 
 
 function NavBar(){
@@ -26,10 +27,10 @@ function NavBar(){
 
                </div>
               <ul className={navClass}>
-                  <li>Home</li>
-                  <li>About</li>
-                  <li>FEATURES</li>
-                   <li>PRICING</li>
+                  <Link to ="/">Home</Link>
+                  <Link to="/about">About</Link>
+                  <Link to ="/Fetures">FEATURES</Link>
+                   <Link to = "/Pricing">PRICING</Link>
                    <button className="loginbtn">Login</button>
                 </ul>
 
