@@ -7,8 +7,9 @@ function Herosection() {
     <div className='hero'>
 
          <div className='hero_leftside'>
-                <h1> hello world</h1>
-                <button>Learn More</button>
+         <h1>SaaS App React Landing Page</h1>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
+          <button>Learn More</button>
          </div>
          <div className='hero_rightside'>
             <img src={image}/>
