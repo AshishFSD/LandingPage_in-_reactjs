@@ -1,0 +1,9 @@
+.containt{
+  margin: 0 auto;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
