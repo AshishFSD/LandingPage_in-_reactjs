@@ -4,6 +4,7 @@ function App() {
   return (
        <div className='containt'>
            <Forms/>
+           <h1>Hello world</h1>
     </div>
   );
 }
