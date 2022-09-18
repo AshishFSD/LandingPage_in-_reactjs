@@ -1,0 +1,9 @@
+button{
+    background:linear-gradient(to right, #7746d3, #634ad6);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+    width: 200px;
+  
+  }

@@ -1,0 +1,18 @@
+.active-user{
+    display: flex;
+    justify-content: space-between;
+     font-size: 16px;
+     font-weight: lighter;
+     margin-top: 1rem;
+     background-color: aquamarine;
+     align-items: center;
+}
+.user-dis{
+    display: flex;
+}
+
+.user-dis > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
