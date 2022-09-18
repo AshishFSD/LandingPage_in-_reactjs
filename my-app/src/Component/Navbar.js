@@ -27,7 +27,7 @@ function NavBar(){
 
                </div>
               <ul className={navClass}>
-                  <Link to ="/">Home</Link>
+                  <Link to="/">Home</Link>
                   <Link to="/about">About</Link>
                   <Link to ="/Fetures">FEATURES</Link>
                    <Link to = "/Pricing">PRICING</Link>

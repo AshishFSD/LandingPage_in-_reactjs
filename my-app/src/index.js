@@ -2,21 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import {BrowserRouter,Route, Routes} from 'react-router-dom';
-import Feture from './Component/Feture';
-import Pricing from './Component/Pricing';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-  <Routes>
-    <Route path="/" component={<App/> } />
-    <Route path="expenses" component={Feture}/>
-    <Route path="invoices" element={<Pricing />} />
-  </Routes>
-</BrowserRouter>
+  <App/>
    
   
 );

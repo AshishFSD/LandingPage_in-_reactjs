@@ -5,8 +5,7 @@ import Herosection from "./Component/Herosection";
 import About from "./Component/About";
 import Feture from "./Component/Feture";
 import Pricing from "./Component/Pricing";
-
-import { Link } from "react-router-dom";
+import { BrowserRouter, routes, route } from "react-router-dom";
 
 
 function App() {
@@ -14,12 +13,12 @@ function App() {
   
   return (
     <div className="App">
-      <NavBar/>
-      <Herosection/>
-      <About/>
-      <Feture/>
-      <Pricing/>
-      
+        <BrowserRouter>
+                 <routes>
+                      <route path ="/" element={<Herosection/>} />
+                      <route path ="About" element={<About/>} />
+                 </routes>
+        </BrowserRouter>
 
        
     </div>
