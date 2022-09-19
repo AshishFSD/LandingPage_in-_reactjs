@@ -1,15 +1,41 @@
-import React ,{useState}from 'react';
-import '../Componets/form.css';
+import React,{useState} from 'react'
 
-export default function Forms() {
-      
-  return (
-        
-        <form>
-           <input type="text"/>
-           <input type="submit"/>
 
+function Forms() {
+ 
+
+     const [task, setTaks] = useState([]); 
+
+   
+       const addtask =(previous)=>{
           
-        </form>
-  )
+           setTaks(...task, ...task);
+
+           task ="";
+       }
+
+
+
+
+   return(
+      <div>
+             <input type="text"
+               value={task}
+               onChange={e=> setTaks(e.target.value)}
+    
+             />
+             <button onClick={addtask}> Add Task</button>
+
+              <div className='task_container'>
+
+                 <ul>
+                    <li>{task}</li>
+                 </ul>
+
+              </div>
+      </div>
+   )
+  
 }
+
+export default Forms
