@@ -1,21 +1,21 @@
-import Header from "./component/Header";
-
-import React,{useState} from "react";
-import data from "./component/todoData.json";
-import './App.css';
-import TodoList from "./component/TodoList";
+import React from 'react';
+import Header from './component/Header';
+import Alltask from './component/Alltask';
 
 
-function App() {
 
- const [list ,setTodo] = useState(data);
+ const App = () =>{
 
-   return(
-     <div>
-       <Header/>
-       <TodoList list ={list}/>
-     </div>
+   return (
+      <>
+        <Header/>
+       
+       <Alltask/>
+      
+      </>
    )
-}
+ }
 
-export default App
+
+
+ export default App;

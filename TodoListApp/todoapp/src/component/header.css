@@ -1,0 +1,8 @@
+.header{
+    background-color: rgb(243, 241, 241);
+  text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 5px rgb(225, 222, 222);
+    color: dodgerblue;
+}

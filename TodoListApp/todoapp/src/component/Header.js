@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import './header.css';
 
-function Header() {
-  return (
-    <div>
-         <h1>Here is your ToDo list</h1>
-    </div>
-  )
-}
 
-export default Header
+
+ const Header =()=>{
+
+     return  <header className='header'>
+              <h1> Todo App</h1>
+     </header>
+ }
+
+
+
+ export default Header;
