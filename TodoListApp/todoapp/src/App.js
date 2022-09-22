@@ -1,29 +1,21 @@
-import './App.css';
-import Forms from './Componets/Forms';
-import { useState } from 'react';
+import Header from "./component/Header";
 
- 
+import React,{useState} from "react";
+import data from "./component/todoData.json";
+import './App.css';
+import TodoList from "./component/TodoList";
+
+
 function App() {
 
+ const [list ,setTodo] = useState(data);
 
-
-    const [todo , setTodo]= useState([]);
-
-    
-   function addTodo(newitem){
-      setTodo(...todo, ...newitem);
-
-       console.log(todo);
-   }
-  
-     
-  return (
-       <div className='containt'>
-           <Forms add={addTodo}/>
-
-           <h1>{todo}</h1>
-    </div>
-  );
+   return(
+     <div>
+       <Header/>
+       <TodoList list ={list}/>
+     </div>
+   )
 }
 
-export default App;
+export default App
