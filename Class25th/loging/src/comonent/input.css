@@ -1,0 +1,19 @@
+.from{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 10px auto;
+}
+
+.from >input {
+    padding: 9px 15px;
+    border: 1px solid var(--green);
+}
+
+
+
+.from >input:focus {
+    
+    border: 1px solid #fff;
+}
+

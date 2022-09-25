@@ -1,0 +1,116 @@
+
+:root{
+  --white:#e1e1e1;
+  --green:#0eca98;
+}
+
+body {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.container{
+  width: 60vw;
+  height: 500px;
+  background-color: #0eca98;
+  margin: 10px auto;
+  display: flex;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.left{
+  width: 35vw;
+  height: 500px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center
+}
+
+.left>h1{
+  color: var(--green);
+  
+}
+
+.right{
+  color: var(--white);
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 250px;
+margin: 0 auto;
+}
+button{
+  padding: 6px 30px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #0eca98;
+  color: #fff;
+  font-size: large;
+  border-radius: 1rem;
+}
+
+
+.formlink{
+  font-size: .5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+  align-items: center;
+}
+
+/*=========Icon CSS ============*/
+
+.icon{
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+
+
+.fa{
+
+  padding: 1rem;
+   border-radius: 50%;
+   width: 10px;
+   height: 10px;
+   
+   background-color:white;
+   font-size: .8rem;
+   
+}
+
+
+.fa:hover{
+  background-color: #0eca98;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid var(--green);
+  box-shadow: 2px 2px 5px rgb(237, 236, 236);
+ 
+}
+.text{
+  text-align: center;
+  color: #fff;
+}
+
+
+
+.btn{
+  border:solid 1px white;
+  
+}
