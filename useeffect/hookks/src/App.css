@@ -46,3 +46,35 @@
   display: grid;
   grid-column:repaet();
 }
+table{
+  width: 600px;
+  margin: 10px auto;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  
+}
+
+th{
+  background-color: dodgerblue;
+  color: #fff;
+  padding: .5rem;
+  text-align:center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 10px auto;
+  gap: 1rem;
+}
+
+.form >input{
+  padding: 1rem;
+  border: 1px solid dodgerblue;
+  border-radius: 10px;
+  width: 400px;
+}

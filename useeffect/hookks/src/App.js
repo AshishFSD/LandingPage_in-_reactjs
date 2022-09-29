@@ -1,40 +1,34 @@
 
 import './App.css';
-import {useState, useEffect} from 'react';
-
-
+import Forms from './Componet/Forms';
+import Tablecontainer from './Componet/Tablecontainer';
+import {useState} from 'react'
+import Form from './Componet/Form';
 
 function App() {
 
-  const [data ,setdata]= useState('users');
-   
-  const [item ,setitem]= useState([]);
+  const [tabledata, settabledata]= useState([]);
 
-    console.log(item);
+
   
-  useEffect(()=>{
-    fetch(`https://jsonplaceholder.typicode.com/${data}`)
-    .then(res => res.json())
-    .then(json => setitem(json));
-  },[data])
+   const updateList =(previous)=>{
+           let copy = [...tabledata,previous];
+           settabledata(copy);
 
-    
-  return (
-        <>
-         <button onClick={()=> setdata("users")}>user</button>
-         <button onClick={()=> setdata("posts")}>posts</button>
-         <button onClick={()=> setdata("comments")}>comments</button>
-           
-        <div  className='container'>
+   }
 
 
-    {JSON.stringify(item)}
-                   
-        </div>
 
-        </>
-  )
 
+  return <>
+   <div className='App'>
+     {/* <Forms getdata={updateList} />
+    <Tablecontainer passdata={tabledata}/>  */}
+
+
+    <Form/>
+   </div>
+  </>
 }
 
 export default App;
