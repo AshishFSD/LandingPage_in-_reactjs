@@ -24,7 +24,7 @@ function Footer() {
                <h1><i className="f	fa fa-moon-o"></i></h1>
                <h1><i className="fa fa-microphone"></i></h1>
                <h1><i className="	fa fa-volume-up"></i></h1>
-               <h1>ENG</h1>
+            
                <h1><i className="fa fa-wifi"></i></h1>
                <h1><i className="fa fa-comment-o"></i></h1>
                </div>
